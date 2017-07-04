@@ -1,6 +1,8 @@
 package task2.Stationery;
 
+import lombok.NoArgsConstructor;
 
+@NoArgsConstructor
 public class Scotch extends Stationery{
 
     private int width;
