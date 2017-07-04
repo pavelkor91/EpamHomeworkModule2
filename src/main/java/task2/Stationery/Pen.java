@@ -1,5 +1,8 @@
 package task2.Stationery;
 
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
 public class Pen extends Stationery{
 
     private String color;
