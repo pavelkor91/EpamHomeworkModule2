@@ -24,7 +24,7 @@ public class Group <T extends Number>{
     }
 
     public void setMark(Student student, T mark){
-        this.students.computeIfPresent(student, (stud, m) -> mark);
+        this.students.put(student, mark);
     }
 
     public T getMark(Student student){

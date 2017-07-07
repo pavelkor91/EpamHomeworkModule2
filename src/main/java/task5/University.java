@@ -17,6 +17,10 @@ public class University {
         groups.add(group);
     }
 
+    public void addGroup(List<Group> groups){
+        this.groups.addAll(groups);
+    }
+
     public void getStudentMarks(Student student){
         System.out.println("Marks of student " + student.getName());
             for (Group g: groups){
